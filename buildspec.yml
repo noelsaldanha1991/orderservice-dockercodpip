@@ -26,7 +26,7 @@ phases:
       - printf '[{"name”:"__ECS_CONTAINER_NAME__","imageUri":"%s"}]'
         $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
       - cat imagedefinitions.json
-  artifacts:
-    files:
-      - imagedefinitions.json
-      - target/orderservice-dockercodpip.jar
+artifacts:
+  files:
+    - imagedefinitions.json
+    - target/orderservice-dockercodpip.jar
