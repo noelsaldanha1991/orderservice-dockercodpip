@@ -1,0 +1,3 @@
+com\javatechie\aws\lambda\domain\Order.class
+com\javatechie\aws\lambda\respository\OrderDao.class
+com\javatechie\aws\lambda\SpringbootAwsApplication.class

@@ -1,0 +1,13 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "enter build phase"
+      - mvn clean package
+  post_build:
+    commands:
+      - echo "build phase done"
+artifacts:
+  files:
+    - target/orderservice-dockercodpip.jar
+  discard-paths: yes
